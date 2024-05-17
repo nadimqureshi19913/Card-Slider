@@ -1,0 +1,512 @@
+*
+{
+    transition: all 0.6s ease-in-out;
+}
+body
+{
+  background:url("https://i.ibb.co/bJhDM2c/image-removebg-preview-77.png")
+}
+.container
+{
+    position:relative;
+    height:400px;
+    width:600px;
+  top:20px;
+    background:black;
+    background-size: cover;
+    overflow: hidden;
+  left:330px;
+}
+.container-1
+{
+    position:absolute;
+    height:400px;
+    width:600px;
+}
+.container-1  .back-image hr
+{
+    opacity:0;
+    height:0.1px;
+    width:400px;
+    color:lightgrey;
+}
+.container-1 .back-image img
+{
+    position:absolute;
+    height:500px;
+    width:750px;
+    left:-100px;
+    top:-50px;
+}
+.container-2
+{
+    position:absolute;
+    height:400px;
+    width:600px;
+    background:rgb(9, 235, 9);
+   display:block;
+   left:-610px;
+
+}
+.container:hover .container-2
+{
+left:0px;
+}
+
+.container-3
+{
+    position:absolute;
+    height:400px;
+    width:600px;
+    color:white;
+    display:block;
+}
+.container-3>div{
+    display:inline-block;
+}
+.container:hover .text
+{
+opacity:0;
+}
+.container-3 .text h1
+{
+position:absolute;
+font-size: 15px;;
+left:110px;
+top:170px;
+font-family: Arial;
+  color:lightgrey
+
+}
+.container-3 .text h2
+{
+position:absolute;
+font-size: 15px;;
+left:110px;
+top:185px;
+font-family: Arial;
+  color:lightgrey
+}
+.container:hover .list
+{
+opacity:0;
+}
+.container:hover .numbers hr
+{
+    opacity:0;
+}
+.container-3 .list h1
+{
+    position:absolute;
+font-size: 8px;
+left:450px;
+top:20px;
+  color:lightgrey
+
+}
+.container-3 .list h2
+{
+    position:absolute;
+    font-size: 8px;
+    left:450px;
+    top:30px;
+  color:lightgrey
+
+}
+.container-3 .list h3
+{
+    position:absolute;
+    font-size: 8px;
+    left:450px;
+    top:40px;
+  color:lightgrey
+
+}
+.container-3 .list h4
+{
+    position:absolute;
+    font-size: 8px;
+    left:450px;
+    top:50px;
+color:lightgrey
+}
+.container:hover .numbers
+{
+opacity:0;
+}
+.numbers h5
+{
+    position:absolute;
+    left:550px;
+    top:30px;
+    font-size: 10px;;
+  color:lightgrey
+}
+.numbers h6
+{
+    position:absolute;
+    left:550px;
+    top:200px;
+    font-size: 10px;;
+}
+.numbers hr
+{
+position:absolute;
+
+height:120px;
+width:0.5px;
+left:553px;
+background: white;
+top:60px;
+  color:lightgrey
+}
+.icon-1 h6{
+    position:absolute;
+    font-size: 25px;
+    top:-43px;
+    left:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white
+}
+.icon-1 hr
+{
+    position:absolute;
+    width:30px;
+    height:2px;
+    background:white;
+    top:3px;
+    left:20px;
+    rotate:-10deg;
+}
+.container:hover .icon-2 img
+{
+    opacity: 0;
+    
+}
+.icon-2 img
+{
+    position:absolute;
+height:20px;
+width:30px;
+rotate:90deg;
+top:190px;
+}
+.icon-3 img
+{
+    position:absolute;
+height:15px;
+width:15px;
+rotate:90deg;
+top:193px;
+left:17px;
+opacity:0;
+}
+.container:hover .icon-3 img
+{
+    opacity:1;
+    rotate:360deg;
+}
+.container:hover .icon-4 img
+{
+    opacity:0
+}
+.icon-4 img
+{
+    position:absolute;
+    height:15px;
+    width:15px;
+    top:310px;
+    left:570px;
+}
+.container:hover .icon-5 img
+{
+    opacity:0
+}
+.icon-5 img
+{
+    position:absolute;
+    height:15px;
+    width:15px;
+    top:330px;
+    left:570px;
+}
+.container:hover .icon-6 img
+{
+    opacity:0
+}
+.icon-6 img
+{
+    position:absolute;
+    height:15px;
+    width:15px;
+    top:350px;
+    left:570px;
+}
+
+
+.container-4
+{
+    position:absolute;
+    height:400px;
+    width:100px;
+    color:white;
+    left:40px;
+    overflow:hidden;
+    
+}
+
+.container-4>div
+{
+display:inline-block;
+}
+
+
+.card-1
+{
+opacity:abolute;
+
+}
+.container:hover .card-1 h3
+{
+  transition-delay:0.2s;
+    left:2px;
+  
+}
+.card-1 h3
+{
+position:absolute;
+font-size: 15px;;
+top:30px;
+left:-62px;
+color:white;
+  transition-delay:-0.25s;
+}
+
+.container:hover .card-1 p
+{
+opacity:1;
+left:2px;
+ transition-delay:0.2s; 
+  
+}
+.card-1 p
+{
+position:absolute;
+font-size: 10px;;
+top:55px;
+left:-92px;
+color:white;
+ transition-delay:-0.25s;
+
+}
+
+
+.container-5
+{
+    position:absolute;
+    height:400px;
+    width:100px;
+    color:white;
+    left:140px;
+    overflow:hidden;
+    
+}
+
+.container-5>div
+{
+display:inline-block;
+}
+
+
+.card-2
+{
+opacity:abolute;
+
+}
+.container:hover .card-2 h3
+{
+  transition-delay:0.2s;
+    left:2px;
+}
+.card-2 h3
+{
+position:absolute;
+font-size: 15px;;
+top:30px;
+left:-62px;
+color:white;
+ transition-delay:-0.25s;
+}
+
+.container:hover .card-2 p
+{
+opacity:1;
+left:2px;
+  transition-delay:0.2s;
+}
+
+.card-2 p
+{
+position:absolute;
+font-size: 10px;;
+top:55px;
+left:-92px;
+color:white;
+transition-delay:-0.25s;
+}
+
+
+
+
+
+.container-6
+{
+    position:absolute;
+    height:400px;
+    width:100px;
+    color:white;
+    left:340px;
+    overflow:hidden
+    
+}
+
+.container-6>div
+{
+display:inline-block;
+}
+
+
+.card-3
+{
+opacity:abolute;
+
+}
+.container:hover .card-3 h3
+{
+    left:2px;
+   transition-delay:0.2s;
+}
+.card-3 h3
+{
+position:absolute;
+font-size: 15px;;
+top:30px;
+left:-62px;
+color:white;
+  transition-delay:-0.25s;
+}
+
+.container:hover .card-3 p
+{
+opacity:1;
+left:2px;
+ transition-delay:0.2s;
+}
+.card-3 p
+{
+position:absolute;
+font-size: 10px;;
+top:55px;
+left:-92px;
+color:white;
+transition-delay:-0.25s;
+}
+
+
+
+
+
+
+
+
+.container-7
+{
+    position:absolute;
+    height:400px;
+    width:100px;
+    color:white;
+    left:240px;
+    overflow: hidden;
+    
+}
+
+.container-7>div
+{
+display:inline-block;
+}
+
+
+.card-4
+{
+opacity:abolute;
+
+}
+.container:hover .card-4 h3
+{
+   transition-delay:0.2s;
+    left:2px;
+}
+.card-4 h3
+{
+position:absolute;
+font-size: 15px;;
+top:30px;
+left:-62px;
+color:white;
+ transition-delay:-0.25s;
+}
+
+.container:hover .card-4 p
+{
+transition-delay:0.2s;
+opacity:1;
+left:2px;
+}
+.card-4 p
+{
+position:absolute;
+font-size: 10px;;
+top:55px;
+left:-92px;
+color:white;
+transition-delay:-0.25s;
+}
+
+
+.container-8
+{
+    position:absolute;
+    
+    height:400px;
+    width:600px;
+    background:none;
+
+}
+.container-8>div{
+    position:absolute;
+    display:inline-block;
+}
+.container:hover .contents h4
+{
+    opacity:1;
+}
+.contents h4
+{
+position:absolute;
+color:white;
+font-size: 10px;;
+left:30px;
+top:350px;
+width:300px;
+opacity:0;
+
+
+}
+
+@media screen and (min-width:600px)
+{
+  body
+  {
+    background:grey;
+  }
+}
